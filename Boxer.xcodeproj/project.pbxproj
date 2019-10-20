@@ -3513,7 +3513,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Alun Bestor and contributors";
 				TargetAttributes = {
 					8D1107260486CEB800E47090 = {
@@ -4844,14 +4844,14 @@
 		9F2D317015B8233800FAE848 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_SHORT_VERSION_STRING = 1.0;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Frameworks\"",
@@ -4882,14 +4882,14 @@
 		9F2D317115B8233800FAE848 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_SHORT_VERSION_STRING = 1.0;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Frameworks\"",
@@ -4922,10 +4922,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -4956,10 +4957,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -5025,15 +5027,15 @@
 		9FE76B341139A11A005EF7B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = boxer;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = H37Q78S9L3;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Frameworks\"",
@@ -5062,15 +5064,15 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = boxer;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = H37Q78S9L3;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Frameworks\"",
