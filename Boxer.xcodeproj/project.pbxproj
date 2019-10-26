@@ -3517,7 +3517,7 @@
 				ORGANIZATIONNAME = "Alun Bestor and contributors";
 				TargetAttributes = {
 					8D1107260486CEB800E47090 = {
-						DevelopmentTeam = H37Q78S9L3;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -5030,11 +5030,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = boxer;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = H37Q78S9L3;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5057,6 +5058,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.washboardabs.boxer;
 				PRODUCT_NAME = Boxer;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
@@ -5067,8 +5069,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = boxer;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = H37Q78S9L3;
@@ -5091,6 +5094,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.washboardabs.boxer;
 				PRODUCT_NAME = Boxer;
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Release;
